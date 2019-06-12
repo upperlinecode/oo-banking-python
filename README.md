@@ -9,21 +9,26 @@ You can't just transfer money to another account without the bank running checks
 1. A bank account is associated with a user's `name`. Build a new class called `BankAccount` and instantiate a new account for a user named "Kiran".
 - A bank account is opened with a `balance` of exactly $1000.
 - A bank account has a `status`, and can be `open`, `closed`, or `zero`. An account is initially always `open`.
-> Note: The name on the account should not be able to be changed, but we're going to ignore that for now.
-    1. Confirm that Kiran's new account is of the type `BankAccount`.
-    2. Confirm that the name on Kiran's account is "Kiran".
-    3. Confirm that Kiran's account has a balance of $1000.
-    4. Confirm that Kiran's account is `open`.
-    5. Set Kiran's balance to $2000. Confirm his new account balance.
+- _Note: The name on the account should not be able to be changed, but we're going to ignore that for now._
+    - Confirm that Kiran's new account is of the type `BankAccount`.
+    - Confirm that the name on Kiran's account is "Kiran".
+    - Confirm that Kiran's account has a balance of $1000.
+    - Confirm that Kiran's account is `open`.
+    - Set Kiran's balance to $2000. Confirm his new account balance.
+
 2. What other properties might a bank account need? Add three more properties to the `BankAccount` class. 
+
 3. Write a new method for the `BankAccount` class called `deposit` that adds money to the account.
+
 4. Write a new method for the `BankAccount` class called `check_balance` that displays a message to the user indicating their balance.
+
 5. Write a new method for the `BankAccount` class called `is_valid` that determines whether the account is valid (open and with funds) or not. The method returns `true` if the bank account is `open`. If the account is `closed` or `zero`, the method returns `false`.
     1. Instantiate a new account, and set its balance to 0.
     2. Check that the status of the account is `zero`.
     3. Check whether the account is valid.
     4. Instantiate another new account, and set its status to `closed`.
     5. Check whether the account is valid.
+
 6. Write a new method for the `BankAccount` class called `close_account` that closes an account.
 
 ### Intermediate 
