@@ -5,26 +5,26 @@ class BankAccount:
 
 
 
-#  ... and instantiate a new account for a user named "Avi".
-avi = BankAccount("Avi")
+#  ... and instantiate a new account for a user named "Kiran".
+kiran_account = BankAccount("Kiran")
 
-# i. Confirm that Avi's new account is of the type `BankAccount`.
-print(type(avi))
+# i. Confirm that Kiran's new account is of the type `BankAccount`.
+print(type(kiran_account))
 
-# ii. Confirm that the name on Avi's account is "Avi".
-print(avi.name)
+# ii. Confirm that the name on Kiran's account is "Kiran".
+print(kiran_account.name)
 
-# iii. Confirm that Avi's account has a balance of $1000.
-print(avi.balance)
+# iii. Confirm that Kiran's account has a balance of $1000.
+print(kiran_account.balance)
 
-# iv. Confirm that Avi's account is `open`.
-print(avi.status)
+# iv. Confirm that Kiran's account is `open`.
+print(kiran_account.status)
 
-# v. Set Avi's balance to $2000. Confirm his new account balance.
-avi.balance = 2000
-print(avi.balance)
+# v. Set Kiran's balance to $2000. Confirm his new account balance.
+kiran_account.balance = 2000
+print(kiran_account.balance)
 
-# Now you're on your own for the rest...
+# Now you're on your own to write tests for the rest...
 
 
 class Transfer:
