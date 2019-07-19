@@ -40,7 +40,7 @@ A bank account:
 7. Make a new bank account for "Amanda".
 8. Build a new class called `Transfer` that initializes with a sender, a recipient, and an amount. Then instantiate a new `Transfer` that sends $50 from Amanda to Kiran.
     1. Confirm that the transfer is of the type `Transfer`.
-    2. Confirm that the transfer had a sender named Amanda, a recipient named Kiran, a status of `pending`, and an amount of $50.
+    2. Confirm that the transfer had a sender named Amanda, a recipient named Kiran, and an amount of $50.
 9. Write a new method for the `Transfer` class called `both_valid` that confirms whether both accounts are valid.
     1. Confirm that the transfer of from Amanda to Kiran is a valid transaction.
     2. Confirm that the `both_valid` method uses the `valid` method on each `BankAccount`.
