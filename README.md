@@ -42,7 +42,7 @@ A bank account:
     1. Confirm that the transfer is of the type `Transfer`.
     2. Confirm that the transfer had a sender named Amanda, a recipient named Kiran, a status of `pending`, and an amount of $50.
 9. Write a new method for the `Transfer` class called `both_valid` that confirms whether both accounts are valid.
-    1. Confirm that the transfer of from Amanda to Kiran is a valid transaction.
+    1. Confirm that the transfer from Amanda to Kiran is a valid transaction.
     2. Confirm that the `both_valid` method uses the `valid` method on each `BankAccount`.
 10. Add a property to the `Transfer` class called `status`:
     - The `status` of a transfer is always initially `pending`. 
