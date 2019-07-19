@@ -30,7 +30,7 @@ kiran_account = BankAccount("Kiran")
 # print(kiran_account.balance)
 
 
-# Now you're on your own to write tests for the rest...
+# Now you're on your own to write tests for the rest of the challenges listed on Github.
 
 
 
